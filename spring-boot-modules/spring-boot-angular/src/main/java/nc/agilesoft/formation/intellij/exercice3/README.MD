@@ -50,9 +50,3 @@ Sélection de caractères :
     - appuyer sur CTRL+flèche droite pour vous déplacer rapidement à droite
     - ajouter ... juste avant le dernier ! pour obtenir
       System.out.println("Bonjour world <x> ...!"); sur les 3 lignes simultanément
-
-
-
-Optionnel, idées complémentaires en attendant le prochain exercice :
-
-- Expérimenter les autres refactorings proposés par IntelliJ
