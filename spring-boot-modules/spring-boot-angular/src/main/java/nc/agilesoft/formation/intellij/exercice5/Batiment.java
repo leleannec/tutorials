@@ -1,17 +1,24 @@
-package nc.agilesoft.formation.intellij.exercice2.solution;
+package nc.agilesoft.formation.intellij.exercice5;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Batiment {
+
     private String nom;
     private String description;
     private LocalDate dateConstruction;
+
+    public static final int C1 = 1;
+    public static final String C2 = "2";
 
     public static void main(String[] args) {
         System.out.println("Hello world 1");
         System.out.println("Hello world 2");
         System.out.println("Hello world 3");
+        System.out.println("Hello world 4");
+        System.out.println("Hello world 123");
+        System.out.println("Hello world ah ok! / Bonjour Ah ok!");
     }
 
     /**
@@ -25,14 +32,16 @@ public class Batiment {
         this.dateConstruction = dateConstruction;
     }
 
+    // @formatter:off
     @Override
     public String toString() {
         return "Personne{" +
-                "nom='" + nom + '\'' +
+                "  nom='" + nom + '\'' +
                 ", prenom='" + description + '\'' +
                 ", dateNaissance=" + dateConstruction +
                 '}';
     }
+    // @formatter:on
 
     @Override
     public boolean equals(Object o) {

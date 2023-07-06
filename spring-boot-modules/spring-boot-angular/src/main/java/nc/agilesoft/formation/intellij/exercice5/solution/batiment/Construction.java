@@ -1,17 +1,24 @@
-package nc.agilesoft.formation.intellij.exercice2.solution;
+package nc.agilesoft.formation.intellij.exercice5.solution.batiment;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Batiment {
+public class Construction {
+
     private String nom;
     private String description;
     private LocalDate dateConstruction;
+
+    public static final int C1 = 1;
+    public static final String C2 = "2";
 
     public static void main(String[] args) {
         System.out.println("Hello world 1");
         System.out.println("Hello world 2");
         System.out.println("Hello world 3");
+        System.out.println("Hello world 4");
+        System.out.println("Hello world 123");
+        System.out.println("Hello world ah ok! / Bonjour Ah ok!");
     }
 
     /**
@@ -19,26 +26,28 @@ public class Batiment {
      * @param description
      * @param dateConstruction
      */
-    public Batiment(String nom, String description, LocalDate dateConstruction) {
+    public Construction(String nom, String description, LocalDate dateConstruction) {
         this.nom = nom;
         this.description = description;
         this.dateConstruction = dateConstruction;
     }
 
+    // @formatter:off
     @Override
     public String toString() {
         return "Personne{" +
-                "nom='" + nom + '\'' +
+                "  nom='" + nom + '\'' +
                 ", prenom='" + description + '\'' +
                 ", dateNaissance=" + dateConstruction +
                 '}';
     }
+    // @formatter:on
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Batiment personne = (Batiment) o;
+        Construction personne = (Construction) o;
         return Objects.equals(nom, personne.nom) && Objects.equals(description, personne.description) && Objects.equals(dateConstruction, personne.dateConstruction);
     }
 
@@ -69,5 +78,9 @@ public class Batiment {
 
     public void setDateConstruction(LocalDate dateConstruction) {
         this.dateConstruction = dateConstruction;
+    }
+
+    private void methodePrivee() {
+        System.out.println("privée!");
     }
 }

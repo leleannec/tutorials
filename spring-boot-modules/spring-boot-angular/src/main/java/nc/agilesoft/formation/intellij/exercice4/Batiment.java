@@ -8,9 +8,9 @@ public class Batiment {
     private String nom;
     private String description;
     private LocalDate dateConstruction;
-    
-    public static final int C1=1;
-    public static final String C2="2";
+
+    public static final int C1 = 1;
+    public static final String C2 = "2";
 
     public static void main(String[] args) {
         System.out.println("Hello world 1");
@@ -32,14 +32,16 @@ public class Batiment {
         this.dateConstruction = dateConstruction;
     }
 
+    // @formatter:off
     @Override
     public String toString() {
         return "Personne{" +
-                "nom='" + nom + '\'' +
+                "  nom='" + nom + '\'' +
                 ", prenom='" + description + '\'' +
                 ", dateNaissance=" + dateConstruction +
                 '}';
     }
+    // @formatter:on
 
     @Override
     public boolean equals(Object o) {

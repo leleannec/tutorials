@@ -1,4 +1,5 @@
 Objectifs de l'exercice :
+
 - navigation dans le code
 - déplacer du code
 - mettre en commentaires
@@ -28,18 +29,21 @@ Navigation dans le code
     - Générer getter/setter
 
 Trouver les usages de la classe Batiment dans le code :
+
 - ouvrir la classe Batiment, sur le nom de la classe, "Find usages" (ALT+F7)
 
 Actions complémentaires sur le code :
+
 - Déplacer une méthode ou une variable membre :
-  - Déplacer la méthode toString sous la méthode equals
-    - cliquer sur le nom de la méthode
-    - CTRL+SHIFT+flèche (bas ou haut) pour déplacer
+    - Déplacer la méthode toString sous la méthode equals
+        - cliquer sur le nom de la méthode
+        - CTRL+SHIFT+flèche (bas ou haut) pour déplacer
 - Mettre en commentaire / enlever les commentaires
-  - Mettre en commentaire la méthode toString  (sélectionner les lignes + CTRL+/)
-  - Décommenter : CTRL+/
+    - Mettre en commentaire la méthode toString  (sélectionner les lignes + CTRL+/)
+    - Décommenter : CTRL+/
 
 Sélection de caractères :
+
 - dans divers endroits du code Java, essayer CTRL+W plusieurs fois
 - puis SHIFT+CTRL pour réduire la sélection
 - CTRL+A pour sélectionner tout le contenu du fichier ouvert
