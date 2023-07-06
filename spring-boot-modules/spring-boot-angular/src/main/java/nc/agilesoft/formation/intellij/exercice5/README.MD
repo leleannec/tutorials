@@ -8,7 +8,11 @@
 - Consulter la hiérarchie des appels d’une méthode : qui appelle une méthode, qui appelle les méthodes qui appellent
   cette méthode, etc.
 
-TODO
+    - exercice :
+        - ouvrir java.time.Period.java (CTRL+N)
+        - ouvrir méthode (CTRL+F12) :
+          public static ChronoPeriod between(ChronoLocalDate startDateInclusive, ChronoLocalDate endDateExclusive)
+        - ouvrir la hiérarchie d'appels : Call hierarchy, CTRL+ALT+H
 
 - Utilisation de Lombok
 
