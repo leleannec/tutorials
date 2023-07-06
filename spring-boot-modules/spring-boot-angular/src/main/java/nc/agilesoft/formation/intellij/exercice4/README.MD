@@ -26,7 +26,17 @@ Live templates
     - Choisir "hwn" comme abbréviation
     - Changer le template text : java.lang.System.out.println("Hello world $n$ / Bonjour $n$");
     - Edit variable pour préciser n
-  
+    - exercice : créer un live template pour accélérer l'écriture de lignes comme :
+      - exemple : public static final String ROLE_<role> = "<role>";
+      - exemple : public static final String ROLE_ADMIN = "ADMIN";
+        tip : public static final String ROLE_$role$ = "$role$";    
 
 - File templates
 
+SHIFT+CTRL+A File templates : lister les files templates
+Ou bien
+Menu > File > New
+
+Exercice :
+- modifier le file template d'une classe Java, pour ajouter : créé par <utilisateur> le <date>
+- créer une nouvelle classe FileTemplateDemo pour vérifier le bon fonctionnement
