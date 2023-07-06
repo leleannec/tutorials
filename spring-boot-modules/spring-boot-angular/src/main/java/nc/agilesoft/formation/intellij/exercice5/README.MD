@@ -37,6 +37,7 @@ TODO
     - Lancer les tests
     - Vue tests : voir le test vert, et le test rouge avec sa stacktrace d'erreur
     - Essayer en mode Debug
+    - Ajouter un @BeforeEach pour factoriser Personne personne = new Personne("NOM", "Jean", LocalDate.of(2000, 1, 1));
 
 
 - Refactoring (Renommer, Déplacer, Extraire, Changer, Introduire, Remonter) et aperçu des principaux autres refactorings
