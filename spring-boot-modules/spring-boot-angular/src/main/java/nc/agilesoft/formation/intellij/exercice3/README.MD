@@ -1,10 +1,3 @@
-Objectifs de l'exercice :
-
-- navigation dans le code
-- déplacer du code
-- mettre en commentaires
-- sélectionner des caractères (mode horizontal/vertical)
-
 Navigation dans le code
 
 - Fermer tous les onglets

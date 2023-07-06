@@ -1,7 +1,7 @@
-
 Configurer son IntelliJ
 
-- Parcourir les settings (CTRL+ALT+S), ou SHIFT+CTRL+A Settings
+- Installer IntelliJ
+- Découvrir les nombreux settings (CTRL+ALT+S), ou SHIFT+CTRL+A Settings
 - Proposé : enlever la vérification orthographique
-  Proofreading > Typo
+    - Proofreading > Typo
 
